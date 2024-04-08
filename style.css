@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 13%;
+    padding: 15px ;
+
+}
+.list {
+    list-style: none;
+    color: aliceblue;
+    
+    display: flex;
+    flex-grow: 0.7;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+.container button {
+    background-color: #ba0cc5;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px 15px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+.hero {
+    background-image: url("assects/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 97vh;
+    text-align: center;
+}
+main h1 {
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 10%;
+}
+main p {
+    color: #ffffff;
+}
+main button {
+    background-color: #ba0cc5;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 4%;
+    cursor: pointer;
+    font-weight: 600;
+}
